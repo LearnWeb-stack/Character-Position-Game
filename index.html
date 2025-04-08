@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Placement Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Character Placement Game</h1>
+    
+    <div class="game-container">
+        <div class="puzzle-number" id="puzzle-number">Puzzle 1</div>
+        
+        <div class="hints-container">
+            <h2>Hints:</h2>
+            <div id="hints-list"></div>
+        </div>
+        
+        <div class="characters" id="characters-container"></div>
+        
+        <div class="positions">
+            <div class="position" id="position-left">
+                <div class="position-label">Left</div>
+            </div>
+            <div class="position" id="position-center-left">
+                <div class="position-label">Center-Left</div>
+            </div>
+            <div class="position" id="position-center">
+                <div class="position-label">Center</div>
+            </div>
+            <div class="position" id="position-center-right">
+                <div class="position-label">Center-Right</div>
+            </div>
+            <div class="position" id="position-right">
+                <div class="position-label">Right</div>
+            </div>
+        </div>
+        
+        <div>
+            <button class="random-btn" id="random-btn">Generate Random Puzzle</button>
+        </div>
+        
+        <div>
+            <button class="check-btn" id="check-btn">Check Placement</button>
+            <button class="reset-btn" id="reset-btn">Reset</button>
+        </div>
+        
+        <div class="message" id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
